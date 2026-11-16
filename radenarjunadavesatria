@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Eksekutif - Raden Arjuna Dave Satria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+
+    <div class="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+        <!-- Header Banner (Nuansa Korporat Merah & Gelap) -->
+        <div class="h-36 bg-gradient-to-r from-red-800 via-red-700 to-slate-900 relative">
+            <div class="absolute top-4 right-5 text-white/90 text-xs font-semibold tracking-wider uppercase bg-black/20 px-3 py-1 rounded-full backdrop-blur-sm">
+                Corporate Profile
+            </div>
+        </div>
+
+        <!-- Foto Profil -->
+        <div class="relative px-6 pb-6">
+            <div class="flex justify-center -mt-20 mb-4">
+                <div class="w-36 h-36 rounded-full border-4 border-white shadow-lg overflow-hidden bg-white">
+                    <!-- Ganti 'foto-profil.jpg' dengan nama file foto Anda yang sudah dihapus background-nya -->
+                    <img src="foto-profil.jpg" alt="Raden Arjuna Dave Satria" class="w-full h-full object-cover object-top">
+                </div>
+            </div>
+
+            <!-- Nama & Jabatan -->
+            <div class="text-center mb-6">
+                <h1 class="text-xl font-bold text-gray-900">Raden Arjuna Dave Satria</h1>
+                <p class="text-red-700 font-semibold text-sm mt-1">Region Manager – Kalimantan Timur</p>
+                <div class="inline-flex items-center gap-1.5 mt-2 px-3 py-1 rounded-md bg-gray-100 text-gray-700 text-xs font-medium">
+                    <i class="fa-solid fa-building text-red-700"></i>
+                    <span>PT Sinarmas Group</span>
+                </div>
+            </div>
+
+            <!-- Ringkasan Profil -->
+            <div class="border-t border-gray-100 pt-4 mb-6">
+                <h2 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Tentang</h2>
+                <p class="text-sm text-gray-600 leading-relaxed text-justify">
+                    Pemimpin operasional dan pengembangan bisnis regional yang berdedikasi dalam mengelola strategi pertumbuhan, kemitraan strategis, serta efisiensi operasional wilayah Kalimantan Timur.
+                </p>
+            </div>
+
+            <!-- Informasi Kontak & Wilayah -->
+            <div class="space-y-3 mb-6 text-sm">
+                <div class="flex items-center gap-3 text-gray-700">
+                    <div class="w-8 h-8 rounded-lg bg-red-50 text-red-700 flex items-center justify-center shrink-0">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-400">Wilayah Operasional</p>
+                        <p class="font-medium">Kalimantan Timur, Indonesia</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-3 text-gray-700">
+                    <div class="w-8 h-8 rounded-lg bg-red-50 text-red-700 flex items-center justify-center shrink-0">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-400">Email Profesional</p>
+                        <p class="font-medium">arjuna.satria@emailanda.com</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-3 text-gray-700">
+                    <div class="w-8 h-8 rounded-lg bg-red-50 text-red-700 flex items-center justify-center shrink-0">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-400">Kontak Langsung</p>
+                        <p class="font-medium">+62 812-XXXX-XXXX</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tombol Aksi -->
+            <div class="grid grid-cols-2 gap-3">
+                <a href="https://wa.me/62812XXXXXXXX" target="_blank" class="flex items-center justify-center gap-2 bg-red-700 hover:bg-red-800 text-white text-sm font-medium py-2.5 px-4 rounded-xl transition duration-200 shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>Hubungi</span>
+                </a>
+                <a href="mailto:arjuna.satria@emailanda.com" class="flex items-center justify-center gap-2 bg-gray-900 hover:bg-gray-800 text-white text-sm font-medium py-2.5 px-4 rounded-xl transition duration-200 shadow-sm">
+                    <i class="fa-regular fa-envelope text-base"></i>
+                    <span>Kirim Email</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gray-50 px-6 py-3 text-center border-t border-gray-100">
+            <p class="text-[11px] text-gray-400">&copy; 2026 Raden Arjuna Dave Satria. All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
